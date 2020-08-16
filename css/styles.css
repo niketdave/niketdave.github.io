@@ -4057,7 +4057,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .s-about__photo {
-    background-image: url(../images/about-photo.jpg);
+    background-image: url(../images/niketdave_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4966,4 +4966,93 @@ html.no-csstransitions .s-hero__content {
     .ss-copyright {
         font-size: 1.4rem;
     }
+}
+
+.canvas {
+    background: #252934;
+}
+
+./*canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background: url(../images/home_1.png) center center/cover;
+}*/
+@media screen and (min-width: 600px){
+section:nth-of-type(1) .text {
+    font-size: 32pt;
+    line-height: 36pt;
+}
+}
+
+.modal-wrap {
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.progress {
+  overflow: visible;
+  margin-bottom: 26px;
+  height: 4px;
+}
+.progress .progress-bar {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 4px;
+}
+.progress .progress-bar span {
+  background-color: #d9083c;
+  position: absolute;
+  bottom: -20px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 2px 3px 2px 4px;
+  right: -1.4em;
+  border-radius: 2px;
+}
+.progress .progress-bar span:after {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: var(--color-text);
+  border-width: 5px;
+  margin-left: -5px;
+}
+
+.position__header h6 .position__pos {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.position__timeframe {
+    font-family: "Gothic A1",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #7e7e7e;
+}
+
+.position__header h6 .position__co {
+    margin-right: 2rem;
 }
