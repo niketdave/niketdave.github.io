@@ -5056,3 +5056,27 @@ section:nth-of-type(1) .text {
 .position__header h6 .position__co {
     margin-right: 2rem;
 }
+
+.position__header h6 {
+    font-family: Martel,serif;
+    line-height: 2.8rem;
+    margin-top: 0;
+    margin-bottom: .4rem;
+}
+.position__header {
+    margin-bottom: 4rem;
+}
+
+.position__header {
+    margin-bottom: 4rem;
+}
+.position {
+    padding-top: 3.6rem;
+    padding-bottom: 3.2rem;
+    border-top: 1px solid #b3c2c1;
+    display: flex;
+}
+.position__logo {
+    height: 8rem;
+    margin-right: 1rem;
+}
